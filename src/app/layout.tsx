@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: "Muhammad Hilmy Tsany - Portfolio",
   },
   description:
-    "Portfolio and personal website of Muhammad Hilmy Tsany, a web developer based in Indonesia.",
+    "Portfolio and personal website of Muhammad Hilmy Tsany, a backend developer based in Indonesia.",
 };
 
 import { DefaultAppShell } from "@/components/appshell";
