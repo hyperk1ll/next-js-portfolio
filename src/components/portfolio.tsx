@@ -7,7 +7,7 @@ import { Pill } from "@mantine/core";
 import { IconLink, IconLinkOff } from "@tabler/icons-react";
 
 import { SearchBar } from "@/components/search-bar";
-import { PortfolioType } from "@/data/portfolio";
+import { PortfolioType } from "@/data/portfolio-data";
 import { cn } from "@/utils/cn";
 
 export function PortfolioCard({
@@ -17,6 +17,10 @@ export function PortfolioCard({
   portfolio: PortfolioType;
   className?: string;
 }) {
+  const truncatedDescription = portfolio.description
+  .map((point) => point.substring(0, 100) + (point.length > 100 ? "..." : ""))
+  .join(" "); // Adjust the number to control the length
+
   return (
     <Link
       href={portfolio.url ?? "#"}
@@ -52,7 +56,11 @@ export function PortfolioCard({
         </p>
         <h3 className="mb-4 text-xl font-semibold">{portfolio.title}</h3>
 
-        <p className="text-sm">{portfolio.description}</p>
+        <ul className="text-sm list-disc pl-5">
+          {portfolio.description.map((point, index) => (
+            <li key={index}>{point}</li>
+          ))}
+        </ul>
 
         {portfolio.url && (
           <div className="mt-6 flex flex-nowrap items-center gap-2 break-all">

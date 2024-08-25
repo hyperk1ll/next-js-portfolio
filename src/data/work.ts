@@ -31,10 +31,10 @@ export const monthNames = [
 export const workData: WorkType[] = [
   {
     yearStart: 2023,
-    monthStart: 1,
+    monthStart: 0,
     companyName: "PT. Mahir Tekno Utama",
     yearEnd: 2023,
-    monthEnd: 2,
+    monthEnd: 1,
     companyLogo: logoMtu.src,
     jobTitle: "Fullstack Developer",
   },
@@ -43,7 +43,7 @@ export const workData: WorkType[] = [
     monthStart: 7,
     companyName: "Calorify Indonesia",
     companyLogo: logoCalorify.src,
-    jobTitle: "Cloud Engineer & Backend Developer",
+    jobTitle: "Cloud & Backend Developer",
   },
   // {
   //   yearStart: 2018,

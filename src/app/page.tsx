@@ -14,7 +14,7 @@ import { PortfolioCard } from "@/components/portfolio";
 
 import photoHilmy from "@/assets/images/photo_hilmy.jpg";
 
-import { portfolioData } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio-data";
 import { workData, monthNames } from "@/data/work";
 
 export default function Home() {
