@@ -18,7 +18,7 @@ export const portfolioData: PortfolioType[] = [
   {
     url: "https://dinarkr-fe.vercel.app/",
     year: 2024,
-    title: "Sistem Manajemen Dinar KR",
+    title: "Sistem Manajemen Dinar",
     description: [
       "Designed and developed features for tracking transactions, calculating profits and losses, and generating monthly reports.",
       "Implemented robust filtering options that allow users to view data based on specific time periods, enhancing financial management capabilities.",
@@ -49,7 +49,7 @@ export const portfolioData: PortfolioType[] = [
       "Implemented data security measures and optimized performance to handle high traffic and large data."
     ],
     image: calorifymobileImage.src,
-    tags: ["Flutter", "Dart", "Express.js", "Firebase", "Google Cloud", "Typesense"],
+    tags: ["Flutter", "Express.js", "Firebase", "Google Cloud", "Typesense"],
   },
   // {
   //   url: "https://play.google.com/store/apps/details?id=com.calorify.app",
