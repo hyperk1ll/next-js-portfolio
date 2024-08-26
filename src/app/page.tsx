@@ -109,7 +109,7 @@ export default function Home() {
 
       {/* work experience */}
       <Container className="space-y-12 overflow-hidden rounded-lg border-2 border-[#eaeaea] bg-zinc-50 p-4 dark:border dark:border-neutral-600 dark:bg-zinc-900">
-        <h2 className="text-2xl font-bold lg:text-4xl">Work Experience</h2>
+        <h2 className="text-2xl font-bold lg:text-4xl">Experience</h2>
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           {workData.slice(0, 4).map((work) => (

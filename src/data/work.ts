@@ -11,6 +11,7 @@ export type WorkType = {
 import freelancer from "@/assets/work/freelancer.webp";
 import logoCalorify from "@/assets/work/logo_calorify.png";
 import logoMtu from "@/assets/work/logo_mtu.png";
+import logoBangkit from "@/assets/work/logo_bangkit.png";
 
 export const monthNames = [
   "January",
@@ -37,6 +38,15 @@ export const workData: WorkType[] = [
     monthEnd: 1,
     companyLogo: logoMtu.src,
     jobTitle: "Fullstack Developer",
+  },
+  {
+    yearStart: 2023,
+    monthStart: 1,
+    yearEnd: 2023,
+    monthEnd: 6,
+    companyName: "Bangkit",
+    companyLogo: logoBangkit.src,
+    jobTitle: "Cloud Computing Cohort",
   },
   {
     yearStart: 2023,

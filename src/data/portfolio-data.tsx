@@ -1,6 +1,7 @@
 export type PortfolioType = {
   url?: string;
   urlMissingReason?: string;
+  role: string;
   year: number;
   title: string;
   description: string[];
@@ -17,6 +18,7 @@ import dinarkrImage from "@/assets/portfolio/dinarkr.webp";
 export const portfolioData: PortfolioType[] = [
   {
     url: "https://dinarkr-fe.vercel.app/",
+    role: "Fullstack Developer",
     year: 2024,
     title: "Sistem Manajemen Dinar",
     description: [
@@ -29,6 +31,7 @@ export const portfolioData: PortfolioType[] = [
   },
   {
     url: "https://calorify.id/",
+    role: "Fullstack Developer",
     year: 2024,
     title: "Calorify Web",
     description: [
@@ -41,6 +44,7 @@ export const portfolioData: PortfolioType[] = [
   },
   {
     url: "https://apps.apple.com/id/app/calorify/id6476380738",
+    role: "Cloud & Backend Developer",
     year: 2023,
     title: "Calorify Mobile",
     description: [
@@ -65,6 +69,7 @@ export const portfolioData: PortfolioType[] = [
   // },
   {
     urlMissingReason: "Only available for internal use",
+    role: "Fullstack Developer",
     year: 2023,
     title: "MTU-Catalog",
     description: [

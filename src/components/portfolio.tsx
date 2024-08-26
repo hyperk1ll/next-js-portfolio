@@ -45,11 +45,16 @@ export function PortfolioCard({
             className="object-cover"
           />
         </div>
-        <div className="mb-6 flex flex-wrap gap-1">
+        <div className="mb-4 flex flex-wrap gap-1">
           {portfolio.tags.map((tag) => (
             <Pill key={tag}>{tag}</Pill>
           ))}
         </div>
+
+        {/* role */}
+        <p className="mb-2 text-m font-semibold text-black dark:text-gray-400">
+          {portfolio.role}
+        </p>
 
         <p className="text-sm text-gray-500 dark:text-gray-400">
           {portfolio.year}
