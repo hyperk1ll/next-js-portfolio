@@ -12,6 +12,8 @@ import freelancer from "@/assets/work/freelancer.webp";
 import logoCalorify from "@/assets/work/logo_calorify.png";
 import logoMtu from "@/assets/work/logo_mtu.png";
 import logoBangkit from "@/assets/work/logo_bangkit.png";
+import logoLateral from "@/assets/work/logo_lateralindo.png";
+
 
 export const monthNames = [
   "January",
@@ -51,19 +53,19 @@ export const workData: WorkType[] = [
   {
     yearStart: 2023,
     monthStart: 7,
+    // yearEnd: 2023,
+    // monthEnd: 8,
     companyName: "Calorify Indonesia",
     companyLogo: logoCalorify.src,
     jobTitle: "Cloud & Backend Developer",
   },
-  // {
-  //   yearStart: 2018,
-  //   monthStart: 3,
-  //   yearEnd: 2019,
-  //   monthEnd: 0,
-  //   companyName: "",
-  //   companyLogo: calorify.src,
-  //   jobTitle: "Cloud Engineer & Backend Developer",
-  // },
+  {
+    yearStart: 2024,
+    monthStart: 8,
+    companyName: "Lateral Indonesia",
+    companyLogo: logoLateral.src,
+    jobTitle: "Cloud Engineer",
+  },
   // {
   //   yearStart: 2023,
   //   monthStart: 10,
