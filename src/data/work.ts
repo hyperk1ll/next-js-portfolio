@@ -13,6 +13,7 @@ import logoCalorify from "@/assets/work/logo_calorify.png";
 import logoMtu from "@/assets/work/logo_mtu.png";
 import logoBangkit from "@/assets/work/logo_bangkit.png";
 import logoLateral from "@/assets/work/logo_lateralindo.png";
+import logoLintasarta from "@/assets/work/logo_lintasarta.png";
 
 
 export const monthNames = [
@@ -53,8 +54,8 @@ export const workData: WorkType[] = [
   {
     yearStart: 2023,
     monthStart: 7,
-    // yearEnd: 2023,
-    // monthEnd: 8,
+    yearEnd: 2024,
+    monthEnd: 11,
     companyName: "Calorify Indonesia",
     companyLogo: logoCalorify.src,
     jobTitle: "Cloud & Backend Developer",
@@ -62,10 +63,28 @@ export const workData: WorkType[] = [
   {
     yearStart: 2024,
     monthStart: 8,
+    yearEnd: 2025,
+    monthEnd: 3,
     companyName: "Lateral Indonesia",
     companyLogo: logoLateral.src,
     jobTitle: "Cloud Engineer",
   },
+  {
+    yearStart: 2025,
+    monthStart: 3,
+    yearEnd: 2025,
+    monthEnd: 8,
+    companyName: "Lintasarta",
+    companyLogo: logoLintasarta.src,
+    jobTitle: "L1 Application & Cloud Security Engineer",
+  },
+    {
+    yearStart: 2025,
+    monthStart: 9,
+    companyName: "Lintasarta",
+    companyLogo: logoLintasarta.src,
+    jobTitle: "L2 Application & Cloud Security Engineer",
+  }
   // {
   //   yearStart: 2023,
   //   monthStart: 10,

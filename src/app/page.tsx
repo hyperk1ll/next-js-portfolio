@@ -37,7 +37,7 @@ export default function Home() {
               <h1 className="mb-12 text-3xl font-bold lg:text-5xl" style={{ lineHeight: '1.40' }}>
                 I&apos;m a{" "}
                 <Highlight>
-                  <span className="lg:px-4">Backend Developer </span>
+                  <span className="lg:px-4">Cloud Security Engineer </span>
                 </Highlight> 
                 {/* &nbsp;& */}
                 <br />
@@ -47,16 +47,14 @@ export default function Home() {
               </h1>
 
               <h2 className="mb-4 text-xl font-semibold lg:text-2xl">
-                Specializing in Express.JS, PostgreSQL, Next.JS, React, & Google Cloud
+                Specializing in building secure, scalable, and reliable systems in the cloud and on premises.
               </h2>
 
               <p className="text-sm lg:text-base">
                 {/* I&apos;m a software engineer based in Indonesia. I&apos;ve been */}
-                I am a Junior Software Engineer with a strong foundation in Backend Development, specializing in
-                creating efficient and scalable Backend systems. I have strong skills in Cloud Engineering and DevOps,
-                and I enjoy designing and maintaining Server-side applications while optimizing performance.
-                Additionally, I have experience in Frontend Development, allowing me to contribute to both the Backend
-                and User Interface aspects of projects.
+                I am a tech enthusiast with a strong foundation in Cloud Engineering, Application & Cloud Security, and Backend Development.
+
+                My experience spans across managing enterprise security platforms, ensuring secure access and identity management, and maintaining cloud infrastructure in large-scale environments. I enjoy working at the intersection of technology, cloud and security, solving complex challenges, improving system performance, and supporting teams in delivering secure and efficient solutions.
               </p>
 
               {/* socials  */}
@@ -112,7 +110,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold lg:text-4xl">Experience</h2>
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
-          {workData.slice(0, 4).map((work) => (
+          {workData.slice(0, 6).map((work) => (
             <div key={work.companyName} className="flex flex-col space-y-4">
               <div className="flex space-x-4">
                 <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center overflow-clip rounded-lg bg-white">

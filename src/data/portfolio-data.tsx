@@ -37,7 +37,7 @@ export const portfolioData: PortfolioType[] = [
     description: [
       "Transformed design concepts into a fully functional and interactive website, ensuring every aspects aligned with the original designs.",
       "Ensuring that the website is fully responsive, providing an optimal user experience across different screen sizes.",
-      "Developed and integrated a search feature that allows users to efficiently find specific food items and articles."
+      "Developed a search feature that allows users to efficiently find specific food items and articles."
     ],
     image: calorifywebImage.src,
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Express.js", "Typesense"],
